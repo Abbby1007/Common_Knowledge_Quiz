@@ -26,6 +26,8 @@ function mission1() {
     if (username == secretCode) {
         resultsDisplay.textContent = ` Correct!!`;
         document.getElementById("next").style.visibility = "hidden";
+
+        document.getElementById("buttonAppear").innerHTML = '<button> MOVE ON </button>'
     }
     else if (username > secretCode) {
         resultsDisplay.textContent = `Answer is too HIGH. try again`;
