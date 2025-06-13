@@ -15,11 +15,27 @@
 // };
 let username;
 const resultsDisplay = document.getElementById('results');
+const instructionsDisplay = document.getElementById('instructions');
 
-let goOn
+let goOn = true;
+let secretCode = Math.floor(Math.random() * 10);
+instructionsDisplay.textContent = `Try to guess the secret Code`;
 function mission1() {
-
-
     username = document.getElementById("myText").value;
-    resultsDisplay.textContent = `${username}`;
+
+    if (username == secretCode) {
+        resultsDisplay.textContent = ` Correct!!`;
+        document.getElementById("next").style.visibility = "hidden";
+    }
+    else if (username > secretCode) {
+        resultsDisplay.textContent = `Answer is too HIGH. try again`;
+    }
+    else if (username < secretCode) {
+        resultsDisplay.textContent = `Answer is too LOW. try again`;
+    }
+    else {
+        resultsDisplay.textContent = `weird`;
+    }
+
+    // resultsDisplay.textContent = `${username}`;
 }
