@@ -1,4 +1,4 @@
-// Question 2 getElement Properties
+// Question 3 getElement Properties
 const questionDisplay = document.getElementById("question");
 const choiceADisplay = document.getElementById("choiceA");
 const choiceBDisplay = document.getElementById("choiceB");
@@ -7,14 +7,14 @@ const choiceDDisplay = document.getElementById("choiceD");
 const resultsDisplay = document.getElementById("results");
 
 
-// JAVASCRIPT FOR THE SECOND QUESTIONS
+// JAVASCRIPT FOR THE THIRD QUESTIONS
 
-// QUESTION 2 questions and answers
-const firstQuestions = ['What does "bae" stand for in slang?', 'If someone mentions they visited the "Big Easy," which city are they referring to?', "What animal is known for its ability to regenerate lost limbs?", "What is a common name for a group of flamingos?", "Which animal's fingerprints are almost identical to human fingerprints?"];
-const firstChoiceA = ["Crow", "Los Angeles", "Snake", "A gaggle", " Scotland "];
-const firstChoiceB = ["Bacon And Eggs", "Miami", "Crab", "A parade", "Lizard"];
-const firstChoiceC = ["Before Anyone Else", "New Orleans", "Starfish", "A crop", "Dolphin"];
-const firstChoiceD = ["Big And Exciting", "Seattle", "Frog", "An alliance", "Koala"];
+// QUESTION 3 questions and answers
+const firstQuestions = ['How many taste buds does an average human have?', 'What type of cloud is fluffy and looks like cotton candy in the sky?', "What is the function of the uvula, the little dangly thing at the back of the throat?", "Which fruit is known as the “king of fruits”?", "What is the tiny piece of plastic at the end of a shoelace called?"];
+const firstChoiceA = ["50", "Stratus", "Speech articulation", "Apple", "Tag"];
+const firstChoiceB = ["200", "Cumulus", "Swallowing control", "Mango", "Aglet"];
+const firstChoiceC = ["10,000", "Nimbus", "Taste detection", "Banana", "Bracket"];
+const firstChoiceD = ["Infinite", "Cirrus", "Decor", "Pineapple", "Loop"];
 
 
 
@@ -48,16 +48,16 @@ if (randomNum == 0) {
 
 
     document.getElementById("second").innerHTML = ` <a href= "wrongAnswer.html"> <button> ${choiceB}  </button> </a> `
-    document.getElementById("third").innerHTML = ` <a href= "hhhQuestion.html"> <button> ${choiceC}  </button> </a> `
+    document.getElementById("third").innerHTML = ` <a href= "ccccPage.html"> <button> ${choiceC}  </button> </a> `
     document.getElementById("fourth").innerHTML = ` <a href= "wrongAnswer.html"> <button> ${choiceD}  </button> </a> `
 }
 else if (randomNum == 1) {
 
-    document.getElementById("second").innerHTML = `<a href= "wrongAnswer.html"> <button> ${choiceB}  </button> </a>`
+    document.getElementById("second").innerHTML = `<a href= "ccccPage.html"> <button> ${choiceB}  </button> </a>`
     questionDisplay.textContent = chosenQuestion;
 
     document.getElementById("first").innerHTML = ` <a href= "wrongAnswer.html"> <button> ${choiceA}  </button> </a> `
-    document.getElementById("third").innerHTML = ` <a href= "hhhQuestion.html"> <button> ${choiceC}  </button> </a> `
+    document.getElementById("third").innerHTML = ` <a href= "wrongAnswer.html"> <button> ${choiceC}  </button> </a> `
     document.getElementById("fourth").innerHTML = ` <a href= "wrongAnswer.html"> <button> ${choiceD}  </button> </a> `
 
 }
@@ -66,14 +66,14 @@ else if (randomNum == 2) {
     document.getElementById("second").innerHTML = `<a href= "wrongAnswer.html"> <button> ${choiceB}  </button> </a>`
     questionDisplay.textContent = chosenQuestion;
 
-    document.getElementById("first").innerHTML = ` <a href= "hhhQuestion.html"> <button> ${choiceA}  </button> </a> `
+    document.getElementById("first").innerHTML = ` <a href= "ccccPage.html"> <button> ${choiceA}  </button> </a> `
     document.getElementById("third").innerHTML = ` <a href= "wrongAnswer.html"> <button> ${choiceC}  </button> </a> `
     document.getElementById("fourth").innerHTML = ` <a href= "wrongAnswer.html"> <button> ${choiceD}  </button> </a> `
 
 }
 else if (randomNum == 3) {
 
-    document.getElementById("second").innerHTML = `<a href= "hhhQuestion.html"> <button> ${choiceB}  </button> </a>`
+    document.getElementById("second").innerHTML = `<a href= "ccccPage.html"> <button> ${choiceB}  </button> </a>`
     questionDisplay.textContent = chosenQuestion;
 
     document.getElementById("first").innerHTML = ` <a href= "wrongAnswer.html"> <button> ${choiceA}  </button> </a> `
@@ -83,12 +83,12 @@ else if (randomNum == 3) {
 }
 else if (randomNum == 4) {
 
-    document.getElementById("second").innerHTML = `<a href= "wrongAnswer.html"> <button> ${choiceB}  </button> </a>`
+    document.getElementById("second").innerHTML = `<a href= "ccccPage.html"> <button> ${choiceB}  </button> </a>`
     questionDisplay.textContent = chosenQuestion;
 
     document.getElementById("first").innerHTML = ` <a href= "wrongAnswer.html"> <button> ${choiceA}  </button> </a> `
     document.getElementById("third").innerHTML = ` <a href= "wrongAnswer.html"> <button> ${choiceC}  </button> </a> `
-    document.getElementById("fourth").innerHTML = ` <a href= "hhhQuestion.html"> <button> ${choiceD}  </button> </a> `
+    document.getElementById("fourth").innerHTML = ` <a href= "wrongAnswer.html"> <button> ${choiceD}  </button> </a> `
 
 }
 
