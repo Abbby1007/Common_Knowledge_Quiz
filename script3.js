@@ -19,7 +19,7 @@ const firstChoiceD = ["Infinite", "Cirrus", "Decor", "Pineapple", "Loop"];
 
 
 
-let randomNum = Math.floor(Math.random() * 3);
+let randomNum = Math.floor(Math.random() * 5);
 
 let chosenQuestion = firstQuestions[randomNum];
 
@@ -44,51 +44,39 @@ choiceDDisplay.textContent = choiceD;
 // They only get one attemp to answer
 if (randomNum == 0) {
     questionDisplay.textContent = chosenQuestion;
-    document.getElementById("first").innerHTML = `<a href= "wrongAnswer.html"> <button> ${choiceA}  </button> </a>`
+    document.getElementById("first").innerHTML = `<a href= "wrongAnswer.html"> <button> ${choiceA}  </button></a> <a href= "wrongAnswer.html"> <button> ${choiceB}  </button></a> <br> <a href= "ccccPage.html"> <button> ${choiceC}  </button></a> <a href= "wrongAnswer.html"> <button> ${choiceD}  </button></a> `
 
-
-    document.getElementById("second").innerHTML = ` <a href= "wrongAnswer.html"> <button> ${choiceB}  </button> </a> `
-    document.getElementById("third").innerHTML = ` <a href= "ccccPage.html"> <button> ${choiceC}  </button> </a> `
-    document.getElementById("fourth").innerHTML = ` <a href= "wrongAnswer.html"> <button> ${choiceD}  </button> </a> `
 }
 else if (randomNum == 1) {
 
-    document.getElementById("second").innerHTML = `<a href= "ccccPage.html"> <button> ${choiceB}  </button> </a>`
     questionDisplay.textContent = chosenQuestion;
 
-    document.getElementById("first").innerHTML = ` <a href= "wrongAnswer.html"> <button> ${choiceA}  </button> </a> `
-    document.getElementById("third").innerHTML = ` <a href= "wrongAnswer.html"> <button> ${choiceC}  </button> </a> `
-    document.getElementById("fourth").innerHTML = ` <a href= "wrongAnswer.html"> <button> ${choiceD}  </button> </a> `
+    document.getElementById("first").innerHTML = ` <a href= "wrongAnswer.html"> <button> ${choiceA}  </button></a>  <a href= "ccccPage.html"> <button> ${choiceB}  </button></a> <br> <a href= "wrongAnswer.html"> <button> ${choiceC}  </button></a> <a href= "wrongAnswer.html"> <button> ${choiceD}  </button></a> `
+
 
 }
 else if (randomNum == 2) {
 
-    document.getElementById("second").innerHTML = `<a href= "wrongAnswer.html"> <button> ${choiceB}  </button> </a>`
     questionDisplay.textContent = chosenQuestion;
 
-    document.getElementById("first").innerHTML = ` <a href= "ccccPage.html"> <button> ${choiceA}  </button> </a> `
-    document.getElementById("third").innerHTML = ` <a href= "wrongAnswer.html"> <button> ${choiceC}  </button> </a> `
-    document.getElementById("fourth").innerHTML = ` <a href= "wrongAnswer.html"> <button> ${choiceD}  </button> </a> `
+    document.getElementById("first").innerHTML = ` <a href= "ccccPage.html"> <button> ${choiceA}  </button></a> <a href= "wrongAnswer.html"> <button> ${choiceB}  </button></a> <br> <a href= "wrongAnswer.html"> <button> ${choiceC}  </button></a> <a href= "wrongAnswer.html"> <button> ${choiceD}  </button></a>`
+
 
 }
 else if (randomNum == 3) {
 
-    document.getElementById("second").innerHTML = `<a href= "ccccPage.html"> <button> ${choiceB}  </button> </a>`
+
     questionDisplay.textContent = chosenQuestion;
 
-    document.getElementById("first").innerHTML = ` <a href= "wrongAnswer.html"> <button> ${choiceA}  </button> </a> `
-    document.getElementById("third").innerHTML = ` <a href= "wrongAnswer.html"> <button> ${choiceC}  </button> </a> `
-    document.getElementById("fourth").innerHTML = ` <a href= "wrongAnswer.html"> <button> ${choiceD}  </button> </a> `
+    document.getElementById("first").innerHTML = ` <a href= "wrongAnswer.html"> <button> ${choiceA}  </button></a> <a href= "ccccPage.html"> <button> ${choiceB}  </button></a> <br> <a href= "wrongAnswer.html"> <button> ${choiceC}  </button></a> <a href= "wrongAnswer.html"> <button> ${choiceD}  </button></a>`
+
 
 }
 else if (randomNum == 4) {
 
-    document.getElementById("second").innerHTML = `<a href= "ccccPage.html"> <button> ${choiceB}  </button> </a>`
     questionDisplay.textContent = chosenQuestion;
 
-    document.getElementById("first").innerHTML = ` <a href= "wrongAnswer.html"> <button> ${choiceA}  </button> </a> `
-    document.getElementById("third").innerHTML = ` <a href= "wrongAnswer.html"> <button> ${choiceC}  </button> </a> `
-    document.getElementById("fourth").innerHTML = ` <a href= "wrongAnswer.html"> <button> ${choiceD}  </button> </a> `
+    document.getElementById("first").innerHTML = ` <a href= "wrongAnswer.html"> <button> ${choiceA}  </button></a> <a href= "ccccPage.html"> <button> ${choiceB}  </button></a> <br> <a href= "wrongAnswer.html"> <button> ${choiceC}  </button></a> <a href= "wrongAnswer.html"> <button> ${choiceD}  </button></a> `
 
 }
 
