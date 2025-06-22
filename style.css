@@ -35,11 +35,24 @@ a:focus {
     outline: none;
 }
 
+#background {
+    background-color: #9EC6F3;
+}
+
+#finish {
+    background-color: #ffdd3c;
+}
+
+#wrong {
+    background-color: ;
+}
+
 #question {
-    background-color: #67c9fd;
+    background-color: #98A8BC;
     width: fit-content;
     height: fit-content;
-    border: 5px solid red;
+    border-radius: 8px;
+    border: 5px solid black;
     text-align: center;
     padding: 1px;
     /* margin: 20px; */
@@ -57,10 +70,12 @@ a:focus {
 
 h1 {
     text-align: center;
+    font-size: 3rem;
 }
 
 h3 {
     text-align: center;
+    font-size: 2rem;
 }
 
 /* Change the text size and button size based on how big the screen is */
@@ -69,6 +84,8 @@ h3 {
     #question {
         font-size: 50px;
     }
+
+
 
     button {
         font-size: 35px;
@@ -108,6 +125,7 @@ h3 {
 @media (max-width: 640px) {
     #question {
         font-size: 30px;
+        height: fit-content;
     }
 
     button {

@@ -37,6 +37,9 @@ choiceBDisplay.textContent = choiceB;
 choiceCDisplay.textContent = choiceC;
 choiceDDisplay.textContent = choiceD;
 
+
+
+
 // Depending on the question chosen is the correct answer
 // The player will only get one question
 // If they get the asnwer right they move on
@@ -44,7 +47,7 @@ choiceDDisplay.textContent = choiceD;
 // They only get one attemp to answer
 if (randomNum == 0) {
     questionDisplay.textContent = chosenQuestion;
-    document.getElementById("first").innerHTML = `<a href= "eeQuestion.html"> <button> ${choiceA} </button></a> <br> <a href= "wrongAnswer.html"><button> ${choiceB}  </button></a> <br> <a href= "wrongAnswer.html"> <button> ${choiceC}  </button></a> <br> <a href= "wrongAnswer.html"> <button> ${choiceD} </button></a> `
+    document.getElementById("first").innerHTML = `<a href= "eeQuestion.html"><button> ${choiceA} </button></a> <br> <a href= "wrongAnswer.html"><button> ${choiceB}  </button></a> <br> <a href= "wrongAnswer.html"> <button> ${choiceC}  </button></a> <br> <a href= "wrongAnswer.html"> <button> ${choiceD} </button></a> `
 
 }
 else if (randomNum == 1) {

@@ -11,7 +11,7 @@ const resultsDisplay = document.getElementById("results");
 
 // QUESTION 2 questions and answers
 const firstQuestions = ['What does "bae" stand for in slang?', 'If someone mentions they visited the "Big Easy," which city are they referring to?', "What animal is known for its ability to regenerate lost limbs?", "What is a common name for a group of flamingos?", "Which animal's fingerprints are almost identical to human fingerprints?"];
-const firstChoiceA = ["Crow", "Los Angeles", "Snake", "A gaggle", " Scotland "];
+const firstChoiceA = ["Best At Everything", "Los Angeles", "Snake", "A gaggle", " Crow "];
 const firstChoiceB = ["Bacon And Eggs", "Miami", "Crab", "A parade", "Lizard"];
 const firstChoiceC = ["Before Anyone Else", "New Orleans", "Starfish", "A crop", "Dolphin"];
 const firstChoiceD = ["Big And Exciting", "Seattle", "Frog", "An alliance", "Koala"];
