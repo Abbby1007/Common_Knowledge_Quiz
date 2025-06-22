@@ -4,7 +4,8 @@ button {
     /* font-size: clamp(50px, 8vm, 200px); */
     text-align: center;
     border-radius: 8px;
-    width: 25%;
+    width: fit-content 25%;
+    ;
     height: 5rem;
     margin: 0px, 0px, 20px, 0px;
     font-size: 16px;
@@ -31,20 +32,22 @@ a:focus {
 
 #question {
     background-color: #67c9fd;
-    width: 95%;
-    height: 10rem;
+    width: fit-content;
+    height: fit-content;
     border: 5px solid red;
     text-align: center;
     padding: 1px;
-    margin: 20px;
-
+    /* margin: 20px; */
+    display: block;
+    margin: auto;
     /* font-size: clamp(50px, 8vm, 100px); */
 
 }
 
-#choiceA {
+
+/* #choiceA {
     margin: 30px;
-}
+} */
 
 
 h1 {
