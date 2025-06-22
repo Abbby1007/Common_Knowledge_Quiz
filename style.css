@@ -4,7 +4,7 @@ button {
     /* font-size: clamp(50px, 8vm, 200px); */
     text-align: center;
     border-radius: 8px;
-    width: fit-content 25%;
+    width: fit-content;
 
     height: 5rem;
     margin: 0px, 0px, 20px, 0px;
@@ -35,6 +35,22 @@ a:focus {
     outline: none;
 }
 
+img {
+    width: 20%;
+    height: 20%;
+    display: block;
+    margin: auto;
+    border-radius: 7px;
+    border: 3px solid black;
+
+}
+
+a {
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+
 #background {
     background-color: #9EC6F3;
 }
@@ -44,7 +60,7 @@ a:focus {
 }
 
 #wrong {
-    background-color: ;
+    background-color: #ee6969;
 }
 
 #question {
